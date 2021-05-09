@@ -17,15 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('login script'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://ui.cogmento.com/')
-
-WebUI.setText(findTestObject('Object Repository/Page_Cogmento CRM/input_Login_email'), 'adarshadhunti@gmail.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Cogmento CRM/input_Login_password'), 'p4y+y39Ir5MNWdGoW6sDGg==')
-
-WebUI.click(findTestObject('Object Repository/Page_Cogmento CRM/div_Login'))
-
+WebUI.navigateToUrl('"https://ui.cogmento.com/contacts/new/"')
 Thread.sleep(3000)
-
