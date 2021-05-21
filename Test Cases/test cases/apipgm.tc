@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>apipgm</description>
+   <name>apipgm</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bef8ef08-26d8-476d-b39d-305b329aca0e</testCaseGuid>
+   <variable>
+      <defaultValue>'4'</defaultValue>
+      <description></description>
+      <id>19e300ec-796c-413b-b5a1-887bfa5ee2c0</id>
+      <masked>false</masked>
+      <name>inta</name>
+   </variable>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>28e5514b-3dc4-4800-9b8b-1e9f698fa497</id>
+      <masked>false</masked>
+      <name>intb</name>
+   </variable>
+</TestCaseEntity>

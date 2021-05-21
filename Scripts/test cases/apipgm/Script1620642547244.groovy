@@ -17,9 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('login script'), [:], FailureHandling.STOP_ON_FAILURE)
+response = WS.sendRequestAndVerify(findTestObject('adarshaa', [('a') : inta, ('b') : intb]))
 
-WebUI.navigateToUrl('"https://ui.cogmento.com/contacts/new/"')
-
-Thread.sleep(3000)
+WS.verifyResponseStatusCode(response, 200)
 
