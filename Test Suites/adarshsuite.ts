@@ -39,9 +39,9 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>176126b4-457d-40d6-a75a-da920e46b578</guid>
+      <guid>e58f28f6-7d38-4750-8efb-3b60febfcab8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/login script</testCaseId>
+      <testCaseId>Test Cases/test cases/tc01</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

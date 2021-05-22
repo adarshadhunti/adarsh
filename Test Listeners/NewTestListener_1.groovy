@@ -41,6 +41,7 @@ class NewTestListener_1 {
 	def sampleAfterTestCase(TestCaseContext testCaseContext) {
 		println testCaseContext.getTestCaseId()
 		println testCaseContext.getTestCaseStatus()
+		
 	}
 
 	/**

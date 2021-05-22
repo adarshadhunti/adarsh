@@ -16,10 +16,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
 
 WebUI.callTestCase(findTestCase('login script'), [:], FailureHandling.STOP_ON_FAILURE)
-
+WebUI.takeScreenshotAsCheckpoint('full_view', FailureHandling.STOP_ON_FAILURE)
 WebUI.navigateToUrl('"https://ui.cogmento.com/contacts/new/"')
+
 
 Thread.sleep(3000)
 

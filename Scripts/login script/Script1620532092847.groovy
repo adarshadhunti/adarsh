@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://ui.cogmento.com/')
@@ -28,4 +30,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Cogmento CRM/input
 WebUI.click(findTestObject('Object Repository/Page_Cogmento CRM/div_Login'))
 
 Thread.sleep(3000)
+WebUI.takeScreenshotAsCheckpoint('full_view1', FailureHandling.STOP_ON_FAILURE)
+
+
 
